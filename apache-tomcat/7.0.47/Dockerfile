@@ -17,4 +17,4 @@ ENV CATALINA_HOME /opt/apache-tomcat-7.0.47
 ENV PATH $PATH:$CATALINA_HOME/bin
 
 # Start Tomcat in the foreground (run) to make sure docker does not immediately shutdown the container
-CMD ["/opt/apache-tomcat-7.0.47/bin/cataline.sh", "run"]
+CMD ["/opt/apache-tomcat-7.0.47/bin/catalina.sh", "run"]
