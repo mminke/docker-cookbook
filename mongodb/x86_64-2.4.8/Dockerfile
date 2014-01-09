@@ -16,4 +16,4 @@ RUN wget -nv --no-cookies http://downloads.mongodb.org/linux/mongodb-linux-x86_6
 RUN mkdir -p /data/db
 VOLUME ["/data/db"]
 
-# CMD ["/opt/mongodb/bin/mongod"]
+CMD ["/opt/mongodb/bin/mongod"]
