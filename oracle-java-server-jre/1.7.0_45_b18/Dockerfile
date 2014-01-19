@@ -7,13 +7,12 @@ RUN apt-get -y install wget
 
 RUN wget -nv --no-cookies --no-check-certificate --header "Cookie: gpw_e24=h" http://download.oracle.com/otn-pub/java/jdk/7u45-b18/server-jre-7u45-linux-x64.tar.gz -O /tmp/server-jre-7u45-linux-x64.tar.gz
 
-# Check the checksum, if it fails, print an error message
+# Check the checksum, if it fails, print an error message else extract the image
 RUN echo "ba3a8e930d8dac68e965eb775ef7ef97  /tmp/server-jre-7u45-linux-x64.tar.gz" | md5sum -c > /dev/null 2>&1 || echo "ERROR: MD5SUM MISMATCH"
-
-RUN tar xzf /tmp/server-jre-7u45-linux-x64.tar.gz
+RUN mkdir -p /usr/lib/jvm
+RUN tar xzf /tmp/server-jre-7u45-linux-x64.tar.gz -C /usr/lib/jvm
 
 # Move to correct location
-RUN mkdir -p /usr/lib/jvm
 RUN mv jdk1.7.0_45 /usr/lib/jvm/java-7-oracle
 
 # CHANGE OWNERSHIP (default is uucp!)
