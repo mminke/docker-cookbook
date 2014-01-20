@@ -37,9 +37,9 @@ ENV ZIKRU_HOME /opt/zikru
 ```
 The above Dockerfile asumes the folowing filestructure to build the image:
 
-/Dockerfile
-/zikru.war
-/conf/zikru-config.properties
++ /Dockerfile
++ /zikru.war
++ /conf/zikru-config.properties
 
 Using this structure the war and configuration are added to the image and an environment variable is set to let the 
 webapplication know where to find the configuration file. How to do this for a different web application depends on the configuration
