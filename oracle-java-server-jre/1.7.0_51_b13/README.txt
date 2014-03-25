@@ -1,0 +1,2 @@
+Note the Cookie which is required to say you accepted the license which Oracle asks you to accept before downloading.
+Normally this is done on a webpage, but obviously this is not workable in an automated script!
