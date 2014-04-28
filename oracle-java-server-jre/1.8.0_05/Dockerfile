@@ -12,7 +12,7 @@ RUN mkdir -p /usr/lib/jvm
 RUN tar xzf /tmp/server-jre-8u5-linux-x64.tar.gz -C /usr/lib/jvm
 
 # Move to correct location
-RUN mv jdk1.8.0_05 /usr/lib/jvm/java-8-oracle
+RUN mv /usr/lib/jvm/jdk1.8.0_05 /usr/lib/jvm/java-8-oracle
 
 # CHANGE OWNERSHIP (default is uucp!)
 RUN chown root:root -R /usr/lib/jvm/java-8-oracle
