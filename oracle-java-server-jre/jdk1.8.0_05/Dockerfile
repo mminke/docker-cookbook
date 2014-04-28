@@ -1,5 +1,5 @@
 # The base image on which this image is based
-FROM ubuntu:quantal
+FROM ubuntu:trusty
 
 MAINTAINER Morten Minke
 
