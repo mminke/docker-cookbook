@@ -5,7 +5,7 @@ MAINTAINER Morten Minke
 
 RUN apt-get -y install wget
 
-RUN wget --progress=bar -nv --no-cookies --no-check-certificate --header "Cookie: gpw_e24=h" http://download.oracle.com/otn-pub/java/jdk/8u5-b13/server-jre-8u5-linux-x64.tar.gz -O /tmp/server-jre-8u5-linux-x64.tar.gz
+RUN wget --progress=bar -nv --no-cookies --no-check-certificate --header "Cookie: gpw_e24=h; oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u5-b13/server-jre-8u5-linux-x64.tar.gz -O /tmp/server-jre-8u5-linux-x64.tar.gz
 
 # Create target folder and extract the archive
 RUN mkdir -p /usr/lib/jvm
