@@ -1,0 +1,27 @@
+#
+#  Zikru, Business Management Solution
+#  Copyright (C) 2011, 2012 Morten Minke.
+#
+#  This program/library is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+#
+#  This program/library is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+# 
+#  You should have received a copy of the GNU Affero General Public License
+#  along with Zikru.  If not, see <http://www.gnu.org/licenses/>.
+#
+
+zikru.mongodb.server.url=MONGODB_SERVER_URL
+zikru.mongodb.database.name=zikru
+
+# Configure zikru-frontend-restclient
+zikru.resourceprovider.baselocation=ZIKRU_BACKEND_WEBSERVICE_URL/rest/v1.0/zikru.resourcedefinitionss
+zikru.menuitemrepository.baselocation=ZIKRU_BACKEND_WEBSERVICE_URL/rest/v1.0/zikru.core.menuitems
+zikru.viewdefinitionrepository.baselocation=ZIKRU_BACKEND_WEBSERVICE_URL/rest/v1.0/zikru.core.viewdefinitions
+zikru.editorrepository.baselocation=ZIKRU_BACKEND_WEBSERVICE_URL/rest/v1.0/zikru.core.editors
+zikru.registryrepository.baselocation=ZIKRU_BACKEND_WEBSERVICE_URL/rest/v1.0/zikru.core.registry.entries
