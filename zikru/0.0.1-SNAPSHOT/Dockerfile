@@ -1,4 +1,4 @@
-FROM mminke/apache-tomcat:7.0.50
+FROM mminke/apache-tomcat:7.0.57
 
 MAINTAINER Morten Minke
 
