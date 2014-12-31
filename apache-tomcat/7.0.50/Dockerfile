@@ -1,5 +1,5 @@
 # The base image on which this image is based
-FROM mminke/oracle-java-server-jre
+FROM mminke/oracle-java-server-jre:1.7.0_51_b13
 
 MAINTAINER Morten Minke
 

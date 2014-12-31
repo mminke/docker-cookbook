@@ -1,5 +1,5 @@
 # The base image on which this image is based
-FROM ubuntu:latest
+FROM ubuntu:14.04
 
 MAINTAINER Morten Minke
 
