@@ -25,3 +25,4 @@ zikru.menuitemrepository.baselocation=ZIKRU_BACKEND_WEBSERVICE_URL/rest/v1.0/zik
 zikru.viewdefinitionrepository.baselocation=ZIKRU_BACKEND_WEBSERVICE_URL/rest/v1.0/zikru.core.viewdefinitions
 zikru.editorrepository.baselocation=ZIKRU_BACKEND_WEBSERVICE_URL/rest/v1.0/zikru.core.editors
 zikru.registryrepository.baselocation=ZIKRU_BACKEND_WEBSERVICE_URL/rest/v1.0/zikru.core.registry.entries
+zikru.sequencerepository.baselocation=ZIKRU_BACKEND_WEBSERVICE_URL/rest/v1.0/zikru.core.sequences
